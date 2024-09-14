@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: rgb(253, 247, 247);
+}
+
+img {
+    margin-left: 300px;
+    height: 700px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 200px;
+    position: relative;
+    margin-top: 100px;
+}
+.icons a i {
+    color: black;
+    transition: transform 500ms;
+}
+
+.icons i:hover {
+    color: rgb(127, 116, 158);
+    transform: scale(1.2);
+}
+
+.icons h6 {
+    font-size: 15px; 
+    margin-top: 0px;
+    transition: transform 600ms;
+}
+
+.icons h6 a {
+    text-decoration: none;
+    color: rgb(33, 28, 28);
+    font-family: 'Quicksand';
+    padding: 2px;
+
+}
+
+.icons a:hover {
+    color: rgb(213, 231, 231);
+}
+
+.icons h6:hover {
+    padding: 1px;
+    background-color: rgb(103, 96, 121);
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+
+.headder {
+    margin-top: -100px;
+}
+
+.header {
+    margin-top: -600px;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    font: bolder;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 450px;
+    background-color: rgb(229, 235, 233);
+    opacity: 70%;
+    box-shadow: 2px 2px 3px 3px rgb(67, 67, 67);
+}
+
+.container p {
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}

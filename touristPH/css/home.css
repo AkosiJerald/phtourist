@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.089) ;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+header {
+    padding-top: 30px;
+    height: 90px;
+    width:1535px;
+    background-color:#61764B;
+}
+
+.title {
+    font-family: sans-serif;
+    color: rgb(23, 21, 21);
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 400px;
+}
+
+.title h3 {
+    float: left;
+    margin-right: 25px;
+
+}
+
+#container {
+    background-color:  #61764B;
+    height: 520px;
+    width: 1250px;
+    margin-left:10%;
+    margin-top: 50px;
+    box-shadow: 25px 25px 15px rgba(0, 0, 0, 0.884);
+    border-radius: 15px;
+}
+
+
+.logo {
+    height: 280px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 70px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.884);
+}
+
+#container .content{
+    height: 220px;
+    width: 650px;
+    margin-left:550px ;
+    text-align: center;
+    font-size:  18px;
+    padding-top: 90px;
+    font-family: cursive;
+    text-indent: 40px;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    font-family: cursive;
+
+}
+
+.nav a:hover{
+    background-color: rgb(10, 143, 15);
+    
+}
+
+@media(max-width:1160px){
+    .max{
+        width: 650px;
+    }
+}

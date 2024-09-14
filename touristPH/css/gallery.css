@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#header {
+   background-image: url("../gallery/leaf.jpg");
+   height: 100px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding-top: 24px;
+   position: fixed;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 3vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+   
+}
+
+#head {
+    background-color: rgba(128, 128, 128, 0.556);
+    height: 60px ;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;  
+}
+nav {
+    background-color: #88A47C;
+    height: 680px;
+    width: 190px;
+    float: left;
+    margin-right: 30px;
+    position: fixed;
+    margin-top: 124px;
+    padding-top: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    font-family: cursive;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    border: 2px solid black;
+    margin-top:40px ;
+    margin-left:30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform .2s ease;
+}
+
+nav a:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.721);
+    
+}
+
+
+#cont {
+    width: 1246px;
+    height: 2300px;
+    background-color: #61764B;
+    padding-left: 273px;
+    padding-top: 125px;
+    display: block;
+}
+
+.title {
+    float: left;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.line-image{
+    display: inline;
+}
+
+.line-image div{
+    padding-top: 20px;
+    margin-left: 10px;
+    float: left;
+    transition: transform .2s ease;
+}
+
+.line-image div:hover {  
+  transform: scale(1.2); 
+}
+
+
+iframe {
+    margin-top: 20px;
+}
+#end {
+    height: 45px;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+#end footer {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+}
